@@ -1,0 +1,91 @@
+#imgFondo {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 393px;
+    height: 852px;
+}
+
+#imgLuz1 {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 82px;
+    top: 210px;
+}
+
+#imgLuz2 {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 257px;
+    top: 210px;
+}
+
+#imgLuzApagadaLED1 {
+    position: absolute;
+    width: 124px;
+    height: 150px;
+    left: 47px;
+    top: 239px;
+}
+
+#imgLuzApagadaLED2 {
+    position: absolute;
+    width: 124px;
+    height: 150px;
+    left: 222px;
+    top: 239px;
+}
+
+#buttonOnLED1 {
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 60px;
+    top: 446px;
+    background-image: "./assets/On.png";
+    background-color: white;
+    border: none;
+}
+
+#buttonOffLED1 {
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 116px;
+    top: 446px;
+    background-image: "./assets/Off.png";
+    background-color: white;
+    border: none;
+}
+
+#buttonOnLED2 {
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 234px;
+    top: 446px;
+    background-image: "./assets/On.png";
+    background-color: white;
+    border: none;
+}
+
+#buttonOffLED2 {
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 290px;
+    top: 446px;
+    background-image: "./assets/Off.png";
+    background-color: white;
+    border: none;
+}
+
+#imgSugerencia {
+    position: absolute;
+    width: 228px;
+    height: 78px;
+    left: 83px;
+    top: 502px;
+}

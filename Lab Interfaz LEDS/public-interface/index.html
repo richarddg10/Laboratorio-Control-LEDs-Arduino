@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="styleMupi.css">
+    </head>
+    <body>
+        <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous"></script>
+
+        <div id="canva">
+            <img id="imgFondo" src="./assets/Fondo.jpg" alt=""/>
+            <img id="imgLuz1" src="./assets/Luz1.png" alt=""/>
+            <img id="imgLuzApagadaLED1" src="./assets/LuzApagada.png" alt=""/>
+            <img id="imgLuz2" src="./assets/Luz2.png" alt=""/>
+            <img id="imgLuzApagadaLED2" src="./assets/LuzApagada.png" alt=""/>
+            <img id="imgSugerencia" src="./assets/Sugerencia.png" alt=""/>
+
+            <button id="buttonOnLED1"></button>
+            <button id="buttonOffLED1"></button>
+
+            <button id="buttonOnLED2"></button>
+            <button id="buttonOffLED2"></button>
+        </div>
+
+        <script src="sketch.js"></script>
+    </body>
+</html>
